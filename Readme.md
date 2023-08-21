@@ -1,8 +1,16 @@
 Open Google sheet 
+
 Input Your Bulk Website In Column A
+
 Click On Extension
+
 App Script
+
 Past This Code 
+
+
+
+
 function checkUrls() {
   // get the number of rows in the sheet
   var sheet = SpreadsheetApp.getActiveSheet();
@@ -38,6 +46,8 @@ function checkUrls() {
     }
   }
 }
+
+
 Save 
 Run This Code 
 And Check Your Sheet
